@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <servlet-name>AddCustomerUIServlet</servlet-name>
+    <servlet-class>com.hsx.web.ui.AddCustomerUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddCustomerServlet</servlet-name>
+    <servlet-class>com.hsx.web.controler.AddCustomerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>ShowCustomerServlet</servlet-name>
+    <servlet-class>com.hsx.web.controler.ShowCustomerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>DeleteCustomerServlet</servlet-name>
+    <servlet-class>com.hsx.web.controler.DeleteCustomerServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateCustomerUIServlet</servlet-name>
+    <servlet-class>com.hsx.web.ui.UpdateCustomerUIServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UpdateCustomerServlet</servlet-name>
+    <servlet-class>com.hsx.web.controler.UpdateCustomerServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>AddCustomerUIServlet</servlet-name>
+    <url-pattern>/AddCustomerUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddCustomerServlet</servlet-name>
+    <url-pattern>/AddCustomerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShowCustomerServlet</servlet-name>
+    <url-pattern>/ShowCustomerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeleteCustomerServlet</servlet-name>
+    <url-pattern>/DeleteCustomerServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateCustomerUIServlet</servlet-name>
+    <url-pattern>/UpdateCustomerUIServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UpdateCustomerServlet</servlet-name>
+    <url-pattern>/UpdateCustomerServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>

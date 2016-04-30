@@ -1,0 +1,24 @@
+create database test character set utf8 collate utf8_general_ci;
+
+show status;
+
+show databases;
+
+use test;
+
+create table customer(
+	id varchar(40),
+	name varchar(20),
+	gender varchar(4),
+	birthday date,
+	cellphone varchar(20),
+	email varchar(40),
+	hobby varchar(100),
+	type varchar(40),
+	description varchar(255)
+)character set utf8 collate utf8_general_ci;
+
+
+
+
+
